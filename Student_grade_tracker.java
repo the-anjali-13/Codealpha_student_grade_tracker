@@ -27,6 +27,7 @@ public class Student_grade_tracker
         System.out.println("3. Find Highest Grade");
         System.out.println("4. Find Lowest Grade");
         System.out.println("5. View Student Grades");
+        System.out.println("6. Exit");
 
         int option = scanobj.nextInt();
         scanobj.nextLine();
@@ -62,6 +63,10 @@ public class Student_grade_tracker
             case 5 :
                 System.out.println("you choose to VIEW STUDENTS GRADE :");
                 viewgrades();
+                break;
+
+            case 6 :
+                System.out.println("---Thank you for visiting us---");
                 break;
 
             default :
